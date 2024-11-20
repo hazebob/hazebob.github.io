@@ -1,8 +1,7 @@
 ---
 title: Hello World 안녕?
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World 안녕?"
-draft: true
+date: "2024-11-20"
+description: "첫 글"
 ---
 
 This is my first post on my new fake blog! How exciting!
