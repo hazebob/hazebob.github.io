@@ -2,6 +2,7 @@
 title: 첫 글
 date: "2024-11-20"
 description: "첫 글"
+draft: true
 ---
 
 This is my first post on my new fake blog! How exciting!
