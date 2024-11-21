@@ -23,6 +23,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     'gatsby-plugin-cname',
+    'gatsby-plugin-draft',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
