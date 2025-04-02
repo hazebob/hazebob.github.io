@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
     header = (
       <div className="w-full md:w-1/3 relative">
         <div className="md:h-full p-8 flex flex-col justify-center bg-skin-base transition-colors">
-          <Bio />
+          {/* <Bio /> */}
         </div>
       </div>
     )
