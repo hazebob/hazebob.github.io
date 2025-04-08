@@ -14,9 +14,9 @@ const config: Config = {
           css: {
             color: '#1a1a1a',
             lineHeight: '1.8',
-            fontSize: '1.125rem',
+            fontSize: '1.25rem',
             a: {
-              color: '#0066cc',
+              color: '#2C4F4F',
               textDecoration: 'none',
               '&:hover': {
                 textDecoration: 'underline',
@@ -80,7 +80,9 @@ const config: Config = {
               fontWeight: '600',
             },
             'ul > li': {
-              paddingLeft: '1.5em',
+              paddingLeft: '0.25em',
+              marginBottom: '0.25em',
+              marginTop: '0.25em',
               '&::before': {
                 width: '0.5em',
                 height: '0.5em',
