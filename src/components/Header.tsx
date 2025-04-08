@@ -2,26 +2,26 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="border-b dark:border-gray-800">
+    <header className="bg-[url('/images/bg1.jpg')] bg-cover bg-top text-white">
       <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link 
           href="/" 
-          className="text-lg font-semibold hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+          className="text-lg font-semibold hover:text-gray-200 transition-colors"
         >
-          My Blog
+          heem.net
         </Link>
         <nav className="flex gap-4">
           <Link 
             href="/article" 
-            className="text-lg font-semibold hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+            className="text-lg font-semibold hover:text-gray-200 transition-colors"
           >
-            아티클
+            article
           </Link>
           <Link 
             href="/about" 
-            className="text-lg font-semibold hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+            className="text-lg font-semibold hover:text-gray-200 transition-colors"
           >
-            소개
+            about
           </Link>
         </nav>
       </div>

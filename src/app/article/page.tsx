@@ -15,8 +15,8 @@ export default function ArticlePage() {
     );
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">아티클</h1>
+    <div className="max-w-4xl mx-auto pb-8">
+      <h1 className="text-[200px] font-bold text-center relative top-[-120px] rotate-[-180deg]">article</h1>
       <div className="grid gap-8">
         {posts.map((post: Post) => (
           <article 

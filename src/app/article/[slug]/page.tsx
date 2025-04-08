@@ -35,7 +35,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const Content = getMDXComponent(post.body.code);
 
   return (
-    <article className="max-w-4xl mx-auto px-4 py-8">
+    <article className="max-w-4xl mx-auto py-8">
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
         <time className="text-gray-500 dark:text-gray-400">
