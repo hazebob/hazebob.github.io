@@ -30,7 +30,7 @@ var Post = defineDocumentType(() => ({
     },
     formattedDate: {
       type: "string",
-      resolve: (doc) => format(parseISO(doc.date), "yyyy\uB144 MM\uC6D4 dd\uC77C")
+      resolve: (doc) => format(parseISO(doc.date), "yyyy. MM. dd.")
     }
   }
 }));
@@ -43,4 +43,4 @@ export {
   Post,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-3EOOYGCW.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-F4QYKVXB.mjs.map

@@ -24,17 +24,17 @@ export default function ArticlePage() {
             className="p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-colors"
           >
             <Link href={post.url} className="block">
-              <time className="text-sm text-gray-500 dark:text-gray-400">
+              <time className="text-sm text-gray-500 ">
                 {post.formattedDate}
               </time>
               <h2 className="text-xl font-semibold mt-2 mb-3">
                 {post.title}
               </h2>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 ">
                 {post.description}
               </p>
-              <div className="mt-4 text-sm text-blue-600 dark:text-blue-400">
-                더 읽기 →
+              <div className="mt-4 text-sm text-[#143739]">
+                read more →
               </div>
             </Link>
           </article>

@@ -42,7 +42,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           {post.formattedDate}
         </time>
       </div>
-      <div className="prose dark:prose-invert max-w-none">
+      <div className="prose max-w-none">
         <Content />
       </div>
     </article>

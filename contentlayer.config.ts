@@ -30,7 +30,7 @@ export const Post = defineDocumentType(() => ({
     },
     formattedDate: {
       type: 'string',
-      resolve: (doc) => format(parseISO(doc.date), 'yyyy년 MM월 dd일'),
+      resolve: (doc) => format(parseISO(doc.date), 'yyyy. MM. dd.'),
     },
   },
 }))

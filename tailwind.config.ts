@@ -12,19 +12,111 @@ const config: Config = {
       typography: {
         DEFAULT: {
           css: {
+            color: '#1a1a1a',
+            lineHeight: '1.8',
+            fontSize: '1.125rem',
+            a: {
+              color: '#0066cc',
+              textDecoration: 'none',
+              '&:hover': {
+                textDecoration: 'underline',
+              },
+            },
+            'h1, h2, h3, h4': {
+              fontWeight: '700',
+              letterSpacing: '-0.025em',
+            },
+            h1: {
+              fontSize: '2.5em',
+              marginBottom: '1em',
+            },
+            h2: {
+              fontSize: '2em',
+              marginTop: '2em',
+              marginBottom: '1em',
+            },
+            h3: {
+              fontSize: '1.5em',
+              marginTop: '1.5em',
+              marginBottom: '0.75em',
+            },
             'code::before': {
               content: '""'
             },
             'code::after': {
               content: '""'
-            }
-          }
-        }
-      }
+            },
+            code: {
+              color: '#dd1144',
+              backgroundColor: '#f3f4f6',
+              padding: '0.2em 0.4em',
+              borderRadius: '0.25em',
+              fontSize: '0.875em',
+            },
+            pre: {
+              backgroundColor: '#f8f9fa',
+              padding: '1em',
+              borderRadius: '0.5em',
+              code: {
+                backgroundColor: 'transparent',
+                padding: '0',
+                color: 'inherit',
+              },
+            },
+            blockquote: {
+              fontStyle: 'normal',
+              fontWeight: '400',
+              borderLeftWidth: '0.25em',
+              borderLeftColor: '#e2e8f0',
+              quotes: '"\\201C""\\201D""\\2018""\\2019"',
+              marginTop: '1.6em',
+              marginBottom: '1.6em',
+              paddingLeft: '1em',
+            },
+            img: {
+              borderRadius: '0.5em',
+            },
+            strong: {
+              fontWeight: '600',
+            },
+            'ul > li': {
+              paddingLeft: '1.5em',
+              '&::before': {
+                width: '0.5em',
+                height: '0.5em',
+                top: 'calc(0.875em - 0.125em)',
+                left: '0.25em',
+              },
+            },
+          },
+        },
+        // 다크 모드 설정
+        invert: {
+          css: {
+            color: '#e7e7e7',
+            'h1, h2, h3, h4': {
+              color: '#fff',
+            },
+            a: {
+              color: '#63b3ed',
+            },
+            blockquote: {
+              borderLeftColor: '#4a5568',
+            },
+            code: {
+              backgroundColor: '#2d3748',
+            },
+            pre: {
+              backgroundColor: '#2d3748',
+            },
+          },
+        },
+      },
     },
   },
   plugins: [
     typography,
   ],
 }
+
 export default config 
