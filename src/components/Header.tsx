@@ -1,8 +1,14 @@
 import Link from 'next/link';
+interface HeaderProps {
+  bgImage: number;
+}
 
-export default function Header() {
+export default function Header({ bgImage }: HeaderProps) {
   return (
-    <header className="bg-[url('/images/bg1.jpg')] bg-cover bg-top text-white">
+    <header 
+      className="bg-cover bg-top text-white"
+      style={{ backgroundImage: `url('/images/bg${bgImage}.jpg')` }}
+    >
       <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link 
           href="/" 
