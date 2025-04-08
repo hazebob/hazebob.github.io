@@ -8,7 +8,7 @@ export default function NotFound() {
         <p className="text-xl mb-8">페이지를 찾을 수 없습니다</p>
         <Link 
           href="/article" 
-          className="text-blue-600 dark:text-blue-400 hover:underline"
+          className="text-blue-600 hover:underline"
         >
           아티클 목록으로 돌아가기 →
         </Link>

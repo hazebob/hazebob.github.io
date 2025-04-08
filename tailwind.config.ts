@@ -90,27 +90,6 @@ const config: Config = {
             },
           },
         },
-        // 다크 모드 설정
-        invert: {
-          css: {
-            color: '#e7e7e7',
-            'h1, h2, h3, h4': {
-              color: '#fff',
-            },
-            a: {
-              color: '#63b3ed',
-            },
-            blockquote: {
-              borderLeftColor: '#4a5568',
-            },
-            code: {
-              backgroundColor: '#2d3748',
-            },
-            pre: {
-              backgroundColor: '#2d3748',
-            },
-          },
-        },
       },
     },
   },

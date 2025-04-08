@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${post.title} | My Next.js Site`,
+    title: `${post.title} | heem.net`,
     description: post.description,
   };
 }
@@ -38,7 +38,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     <article className="max-w-4xl mx-auto py-8">
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-        <time className="text-gray-500 dark:text-gray-400">
+        <time className="text-gray-500">
           {post.formattedDate}
         </time>
       </div>

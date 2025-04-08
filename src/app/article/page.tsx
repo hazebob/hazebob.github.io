@@ -3,7 +3,7 @@ import { allPosts, type Post } from 'contentlayer/generated';
 import { compareDesc } from 'date-fns';
 
 export const metadata = {
-  title: '아티클 | My Next.js Site',
+  title: 'article | heem.net',
   description: '프로그래밍과 개발에 대한 이야기를 공유합니다.',
 }
 
