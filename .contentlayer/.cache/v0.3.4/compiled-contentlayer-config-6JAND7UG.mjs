@@ -3,7 +3,7 @@ import { defineDocumentType, makeSource } from "contentlayer/source-files";
 import { format, parseISO } from "date-fns";
 var Post = defineDocumentType(() => ({
   name: "Post",
-  filePathPattern: `**/*.mdx`,
+  filePathPattern: `**/*.{md,mdx}`,
   contentType: "mdx",
   fields: {
     title: {
@@ -43,4 +43,4 @@ export {
   Post,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-F4QYKVXB.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-6JAND7UG.mjs.map

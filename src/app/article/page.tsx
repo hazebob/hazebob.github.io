@@ -21,13 +21,13 @@ export default function ArticlePage() {
         {posts.map((post: Post) => (
           <article 
             key={post._id} 
-            className="p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-colors"
+            className="p-6 rounded-lg border border-gray-300  hover:border-gray-300 transition-colors"
           >
             <Link href={post.url} className="block">
               <time className="text-sm text-gray-500 ">
                 {post.formattedDate}
               </time>
-              <h2 className="text-xl font-semibold mt-2 mb-3">
+              <h2 className="text-2xl font-semibold mt-2 mb-3">
                 {post.title}
               </h2>
               <p className="text-gray-600 ">

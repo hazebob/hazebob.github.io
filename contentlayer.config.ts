@@ -3,7 +3,7 @@ import { format, parseISO } from 'date-fns'
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `**/*.mdx`,
+  filePathPattern: `**/*.{md,mdx}`,
   contentType: 'mdx',
   fields: {
     title: {
