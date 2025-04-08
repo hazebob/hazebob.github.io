@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function BlogLayout({
+export default function ArticleLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -16,10 +16,10 @@ export default function BlogLayout({
             홈으로
           </Link>
           <Link 
-            href="/blog" 
+            href="/article" 
             className="text-lg font-semibold hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
           >
-            블로그
+            아티클
           </Link>
         </div>
       </nav>

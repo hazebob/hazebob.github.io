@@ -3,6 +3,7 @@ import { allPosts, type Post } from 'contentlayer/generated';
 import { getMDXComponent } from 'next-contentlayer/hooks';
 
 export async function generateStaticParams() {
+  // 모든 포스트의 slug를 생성 (published 상태와 관계없이)
   return allPosts.map((post: Post) => ({
     slug: post._raw.flattenedPath,
   }));
@@ -11,9 +12,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const post = allPosts.find((post: Post) => post._raw.flattenedPath === params.slug);
   
-  if (!post) {
+  if (!post || post.published === false) {
     return {
-      title: '포스트를 찾을 수 없습니다',
+      title: '아티클을 찾을 수 없습니다',
     };
   }
 
@@ -23,10 +24,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+export default function ArticlePage({ params }: { params: { slug: string } }) {
   const post = allPosts.find((post: Post) => post._raw.flattenedPath === params.slug);
 
-  if (!post) {
+  // 포스트가 없거나 published가 false인 경우 404 페이지로 이동
+  if (!post || post.published === false) {
     notFound();
   }
 
