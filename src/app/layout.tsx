@@ -7,8 +7,8 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "My Blog",
-  description: "프로그래밍과 개발에 대한 이야기를 공유합니다.",
+  title: "heem.net",
+  description: "나에 대해 이야기 합니다.",
 };
 
 export default function RootLayout({
