@@ -6,6 +6,13 @@ import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
+
 export const metadata: Metadata = {
   title: "heem.net",
   description: "나에 대해 이야기 합니다.",
@@ -37,6 +44,15 @@ export default function RootLayout({
           />
         )}
       </head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-98159ZN764" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-98159ZN764');
+        `}
+      </Script>
       <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
         {GTM_ID && (
