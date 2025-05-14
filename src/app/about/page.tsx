@@ -5,8 +5,15 @@ export default function About() {
         <section>
           <h1 className="text-4xl font-bold mb-4">About Me</h1>
           <p className="text-lg text-gray-700">
-            안녕하세요! 저는 프론트엔드 개발자입니다.
-            사용자 경험을 개선하고 아름다운 인터페이스를 만드는 것을 좋아합니다.
+            프론트엔드 개발자. 
+            <br/>
+            - grepp(current)
+            <br/>
+            - stibee
+            <br/>
+            - slowalk
+            <br/>
+            - webactually
           </p>
         </section>
 
