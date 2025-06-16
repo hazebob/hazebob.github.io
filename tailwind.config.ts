@@ -17,9 +17,9 @@ const config: Config = {
             fontSize: '1.25rem',
             a: {
               color: '#2C4F4F',
-              textDecoration: 'none',
+              textDecoration: 'underline',
               '&:hover': {
-                textDecoration: 'underline',
+                textDecoration: 'none',
               },
             },
             'h1, h2, h3, h4': {

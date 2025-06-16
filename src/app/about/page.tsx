@@ -5,15 +5,17 @@ export default function About() {
         <section>
           <h1 className="text-4xl font-bold mb-4">About Me</h1>
           <p className="text-lg text-gray-700">
-            프론트엔드 개발자. 
+            문윤기(Bob).
             <br/>
-            - grepp(current)
+            대한민국에 사는 프론트엔드 개발자. 세 아이의 아빠.
             <br/>
-            - stibee
+            - Grepp(2022 ~ 현재)
             <br/>
-            - slowalk
+            - Stibee(2017 ~ 2022)
             <br/>
-            - webactually
+            - Slowalk(2013 ~ 2017)
+            <br/>
+            - Webactually(2012 ~ 2013)
           </p>
         </section>
 
