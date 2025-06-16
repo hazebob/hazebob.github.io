@@ -1,6 +1,6 @@
 ---
 title: '<The Gentle Singularity> 읽고서'
-date: '2025-06-17'
+date: '2025-06-01'
 description: 'Sam Altman 블로그 글 The Gentle Singularity를 읽고드는 생각'
 ---
 
