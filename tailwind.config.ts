@@ -27,18 +27,18 @@ const config: Config = {
               letterSpacing: '-0.025em',
             },
             h1: {
-              fontSize: '2.5em',
-              marginBottom: '1em',
+              fontSize: '2.5rem',
+              marginBottom: '1rem',
             },
             h2: {
-              fontSize: '2em',
-              marginTop: '2em',
-              marginBottom: '1em',
+              fontSize: '2rem',
+              marginTop: '2rem',
+              marginBottom: '1rem',
             },
             h3: {
-              fontSize: '1.5em',
-              marginTop: '1.5em',
-              marginBottom: '0.75em',
+              fontSize: '1.5rem',
+              marginTop: '1.5rem',
+              marginBottom: '0.75rem',
             },
             'code::before': {
               content: '""'
