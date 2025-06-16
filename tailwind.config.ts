@@ -13,7 +13,7 @@ const config: Config = {
         DEFAULT: {
           css: {
             color: '#1a1a1a',
-            lineHeight: '1.8',
+            lineHeight: '1.6',
             fontSize: '1.25rem',
             a: {
               color: '#2C4F4F',
@@ -78,6 +78,12 @@ const config: Config = {
             },
             strong: {
               fontWeight: '600',
+            },
+            ol: {
+              paddingInlineStart: '1.325em',
+            },
+            ul: {
+              paddingInlineStart: '1.325em',
             },
             'ul > li': {
               paddingLeft: '0.25em',
