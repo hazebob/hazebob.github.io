@@ -9,13 +9,12 @@ export default function About() {
             <br/>
             대한민국에 사는 프론트엔드 개발자. 세 아이의 아빠.
             <br/>
-            - Grepp(2022 ~ 현재)
-            <br/>
-            - Stibee(2017 ~ 2022)
-            <br/>
-            - Slowalk(2013 ~ 2017)
-            <br/>
-            - Webactually(2012 ~ 2013)
+            <ul>
+              <li>Grepp(2022 ~ 현재)</li>
+              <li>Stibee(2017 ~ 2022)</li>
+              <li>Slowalk(2013 ~ 2017)</li>
+              <li>Webactually(2012 ~ 2013)</li>
+            </ul>
           </p>
         </section>
 
