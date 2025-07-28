@@ -9,11 +9,19 @@ export default function About() {
             <br/>
             대한민국에 사는 프론트엔드 개발자. 세 아이의 아빠.
             <br/>
+            <h4>Work Experience</h4>
             <ul>
               <li>Grepp(2022 ~ 현재)</li>
               <li>Stibee(2017 ~ 2022)</li>
               <li>Slowalk(2013 ~ 2017)</li>
               <li>Webactually(2012 ~ 2013)</li>
+            </ul>
+            <h4>Mentor/Lecturer</h4>
+            <ul>
+              <li>KDT Full Cycle Dev Course - Grepp(2022 ~ 현재)</li>
+              <li>KDT Full Cycle Dev Course React Part - Grepp(2022)</li>
+              <li>개인 멘토링 - Inflearn (2023 ~ 현재)</li>
+              <li>vue.js 강의 - Grepp(2021)</li>
             </ul>
           </p>
         </section>
