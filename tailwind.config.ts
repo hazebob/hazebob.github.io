@@ -80,10 +80,10 @@ const config: Config = {
               fontWeight: '600',
             },
             ol: {
-              paddingInlineStart: '1.325em',
+              paddingInlineStart: '2em',
             },
             ul: {
-              paddingInlineStart: '1.325em',
+              paddingInlineStart: '2em',
             },
             'ul > li': {
               paddingLeft: '0.25em',
