@@ -7,17 +7,17 @@ export default function About() {
           <p className="text-lg text-gray-700">
             문윤기(Bob).
             <br/>
-            대한민국에 사는 프론트엔드 개발자. 세 아이의 아빠.
+            대한민국에 사는 개발자. 세 아이의 아빠.
           </p>
           <h4 className="text-lg font-semibold pt-3">Work Experience</h4>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside pl-4">
             <li>Grepp(2022 ~ 현재)</li>
             <li>Stibee(2017 ~ 2022)</li>
             <li>Slowalk(2013 ~ 2017)</li>
             <li>Webactually(2012 ~ 2013)</li>
           </ul>
-          <h4 className="text-lg font-semibold">Mentor/Lecturer</h4>
-          <ul className="list-disc list-inside">
+          <h4 className="text-lg font-semibold pt-3">Mentor/Lecturer</h4>
+          <ul className="list-disc list-inside pl-4">
             <li>KDT Full Cycle Dev Course - Grepp(2022 ~ 현재)</li>
             <li>KDT Full Cycle Dev Course React Part - Grepp(2022)</li>
             <li>개인 멘토링 - Inflearn (2023 ~ 현재)</li>
