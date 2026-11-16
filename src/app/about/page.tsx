@@ -9,7 +9,7 @@ export default function About() {
             <br/>
             대한민국에 사는 프론트엔드 개발자. 세 아이의 아빠.
           </p>
-          <h4 className="text-lg font-semibold">Work Experience</h4>
+          <h4 className="text-lg font-semibold pt-3">Work Experience</h4>
           <ul className="list-disc list-inside">
             <li>Grepp(2022 ~ 현재)</li>
             <li>Stibee(2017 ~ 2022)</li>
